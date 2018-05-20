@@ -21,5 +21,8 @@ $data = curl_exec($ch);
 } 
 
 ?>
-
-<form action="" method="POST">Enter Phone Number<br><input type="text" name="number" placeholder="e.g 03xxxxxxx"><br>Enter Message<br><textarea  name="message"></textarea><br> <input type="submit" value="Send  SMS" name="submit"></form>
+<! =================================HTML FORM================================>
+<form action="" method="POST">Enter Phone Number<br><input type="text" name="number" placeholder="e.g 03xxxxxxx"><br>
+  Enter Message<br><textarea  name="message"></textarea><br> 
+  
+  <input type="submit" value="Send  SMS" name="submit"></form>
