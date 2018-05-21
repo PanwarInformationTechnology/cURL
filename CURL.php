@@ -20,8 +20,7 @@ $data = curl_exec($ch);
 <?php
 } 
 
-?>
-<! =================================HTML FORM================================>
+
 <form action="" method="POST">Enter Phone Number<br><input type="text" name="number" placeholder="e.g 03xxxxxxx"><br>
   Enter Message<br><textarea  name="message"></textarea><br> 
   
